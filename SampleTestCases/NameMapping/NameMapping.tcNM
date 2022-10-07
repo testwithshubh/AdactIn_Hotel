@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{D21C2DEB-A73F-40A6-8430-4026CB1D898B}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Homepage" Key="{87302A73-141E-4F62-98A2-DBA66EF14676}">
+						<TypeInfo Item0="{98F2F6BE-B88D-4E31-9579-34DCEA0D7E57}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Homepage" Key="{7DE59999-F079-434B-A95C-755F7FE28FC1}">
+								<Image FileName="714921442" Left="8" Top="79" Right="1608" Bottom="868" />
+								<TypeInfo Item0="{102EE111-6832-4A2C-A1F8-4F87E995B082}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://adactinhotelapp.com/" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="WelcomePage" Key="{1BCEADBB-F3C7-4D8F-9C1C-AAAA1A996DCA}">
+								<Image FileName="-755561777" Left="8" Top="79" Right="1608" Bottom="868" />
+								<TypeInfo Item0="{102EE111-6832-4A2C-A1F8-4F87E995B082}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://adactinhotelapp.com/SearchHotel.php" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAdactinComSelectHotel" Key="{B5B2AD1B-8EE6-4059-87D7-18C20C566830}">
+								<Image FileName="1195478689" Left="8" Top="79" Right="1608" Bottom="868" />
+								<TypeInfo Item0="{102EE111-6832-4A2C-A1F8-4F87E995B082}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://adactinhotelapp.com/SelectHotel.php" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cell" Key="{13829B68-7833-409E-A096-3C3CA9CA5B69}">
+										<Image FileName="1195478689" Left="8" Top="327" Right="1271" Bottom="966" />
+										<TypeInfo Item0="{E84278A9-675B-408D-AC1A-5650626BEFE9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(., &apos;Select Hotel&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HotelBookingPage" Key="{AE14A898-6FFD-4FA5-8869-7A5BE7645EE2}">
+								<Image FileName="-1981158834" Left="8" Top="79" Right="1608" Bottom="868" />
+								<TypeInfo Item0="{102EE111-6832-4A2C-A1F8-4F87E995B082}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://adactinhotelapp.com/BookHotel.php" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="LogoutPage" Key="{5F213887-4386-4DA1-A74A-466BC4D5A25A}">
+								<Image FileName="41826518" Left="8" Top="79" Right="1608" Bottom="868" />
+								<TypeInfo Item0="{102EE111-6832-4A2C-A1F8-4F87E995B082}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://adactinhotelapp.com/Logout.php" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="BookingConfirmPage" Key="{EFB0096E-F038-4D38-948C-9088DE50749A}">
+								<Image FileName="-820599296" Left="8" Top="79" Right="1608" Bottom="868" />
+								<TypeInfo Item0="{102EE111-6832-4A2C-A1F8-4F87E995B082}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://adactinhotelapp.com/BookingConfirm.php" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Homepage" Owner="{87302A73-141E-4F62-98A2-DBA66EF14676}">
+			<Child Name="Homepage" Owner="{7DE59999-F079-434B-A95C-755F7FE28FC1}" />
+			<Child Name="WelcomePage" Owner="{1BCEADBB-F3C7-4D8F-9C1C-AAAA1A996DCA}" />
+			<Child Name="pageAdactinComSelectHotel" Owner="{B5B2AD1B-8EE6-4059-87D7-18C20C566830}">
+				<Child Name="cell" Owner="{13829B68-7833-409E-A096-3C3CA9CA5B69}" />
+			</Child>
+			<Child Name="HotelBookingPage" Owner="{AE14A898-6FFD-4FA5-8869-7A5BE7645EE2}" />
+			<Child Name="LogoutPage" Owner="{5F213887-4386-4DA1-A74A-466BC4D5A25A}" />
+			<Child Name="BookingConfirmPage" Owner="{EFB0096E-F038-4D38-948C-9088DE50749A}" />
+		</Child>
+	</LogicalNodes>
+</Root>
